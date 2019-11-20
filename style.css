@@ -1,0 +1,109 @@
+
+body{
+ margin: 0;
+ padding: 0;
+ 
+ 
+ background-position: 50% 50%;
+ background-color: rgb(32, 27, 27);
+}
+
+.progressbar{
+ width: 800px;
+ margin: 0 auto;
+}
+
+ .progressbar h1{
+ text-align: center;
+ text-transform: uppercase;
+ margin-top: 40px;
+ color: cornsilk;
+}
+
+.progressbar h2{
+ text-align: left;
+}
+
+.line{
+ height: 25px;
+ min-width: 700px;
+ margin: 0 auto 10px;
+ line-height: 25px;
+ font-size: 14px;
+ color: #fff;
+ position: relative;
+ border-radius: 3px;
+}
+
+.line:before{
+ content: '';
+ width: 100%;
+ position: absolute;
+ left: 0;
+ height: 25px;
+ top: 0;
+ z-index: -2;
+ background: #d2d6d7;
+
+}
+
+ .line:after {
+ content: '';
+ background: rgb(224, 210, 13);
+ height: 25px;
+ transition: 0.8s;
+ display: block;
+ width: 20%;
+ animation: animate 1 4s;
+ top: 0;
+ position: absolute;
+ z-index: -1;
+ left: 0;
+}
+
+p {
+ color: blanchedalmond;
+ font-size: 20px;
+}
+
+h2{
+color: blanchedalmond;
+font-size: 0.8em;
+}
+
+.line1 :after{
+ max-width: 40%;
+
+}
+
+ line2:after{
+ max-width: 80%;
+
+}
+
+.line3:after{
+ max-width: 60%;
+}
+
+
+
+
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    100%{
+         width: 100%;
+    }
+}
+
+      
+      
+   
+   
+
+
+
+
+
+
