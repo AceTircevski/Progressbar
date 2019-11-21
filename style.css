@@ -5,6 +5,7 @@ body{
  font-family: 'Caveat', cursive;
  background-position: 50% 50%;
  background-color: rgb(35, 56, 112);
+ 
 }
 
 nav h1{
@@ -20,9 +21,7 @@ img{
  width: 200px;
 
 }
-
  
-
 .container{
  margin: 100px;
  display: initial;
@@ -30,8 +29,7 @@ img{
 
 .progressbar{
  width: 500px;
- margin-left: 3px;
-}
+ }
 
 
 .box{
@@ -60,28 +58,28 @@ img{
  top: 0;
  z-index: -2;
  background: #d2d6d7;
- border-radius: 12px;
+ border-radius: 0px 15px 15px 10px;
 
 }
 
  .line:after {
  content: '';
- background: rgb(224, 210, 13);
+ background: rgb(24, 24, 23);
  height: 25px;
- transition: 0.8s;
+ transition: 1.4s;
  display: block;
- width: 20%;
- animation: animate 1 4s;
+ width: 3%;
+ animation: animate 5s;
  top: 0;
  position: absolute;
  z-index: -1;
  left: 0;
- border-radius: 12px;
+ border-radius: 0px 15px 15px 0px;
 }
 
 p {
  color: white;
- font-size: 2em;
+ font-size: 2.4em;
  padding: 28px;
  padding-left: 5px;
 }
@@ -92,17 +90,17 @@ font-size: 0.8em;
 }
 
 .line1 :after{
- max-width: 40%;
+ max-width: 70%;
 
 }
 
  .line2:after{
- max-width: 60%;
+ max-width: 14%;
 
 }
 
 .line3:after{
- max-width: 30%;
+ max-width: 68%;
 }
 
 
@@ -112,8 +110,8 @@ font-size: 0.8em;
     0%{
         width: 0;
     }
-    100%{
-         width: 100%;
+    96%{
+         width: 96%;
     }
 }
 
